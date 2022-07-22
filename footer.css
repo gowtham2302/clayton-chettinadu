@@ -1,0 +1,863 @@
+.homepageimage{
+    width:100%;
+}
+.homepageimage1{
+
+    width:100%;
+
+    background: rgba(9, 9, 9, 0.5);
+
+}
+
+
+
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    width: 90%;
+    
+}
+
+.blueberry{
+   
+    height: 7rem;
+    width: 15rem;
+    
+}
+
+.stext{
+    position: relative;
+   
+}
+
+
+.simage{
+   
+    transform: rotate(0deg);
+    z-index: -1;
+    position: absolute;
+    height: 14rem;
+    width: 15rem;
+    padding-left: 0%;
+    left:77%;
+}
+
+.simage1{
+    transform: rotate(0deg);
+    z-index: +1;
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    padding-left: 0%;
+}
+
+
+.simage2{
+    
+    position: absolute;
+    padding-bottom:0rem; 
+    padding-top: 0rem;
+    padding-right: 10rem;
+    height: 15rem;
+    width: 10rem;
+    left:5%;
+    
+}
+
+.simage3{
+    position: absolute;
+    padding-top: 0rem;
+    padding-bottom:0rem;
+    
+    padding-top: 0rem;
+   
+    height: 15rem;
+    width: 10rem;
+
+    padding-left: 6rem;
+    
+}
+
+.simage4{
+
+    position: absolute;
+    padding-top: 0rem;
+    padding-bottom:0rem;
+    
+    padding-top: 0rem;
+   
+    height: 15rem;
+    width: 10rem;
+
+    padding-left: 2rem;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .simage2 {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+.leaf{
+    height:7rem;
+}
+
+.leaf2{
+    height:7rem;
+}
+
+.menuicon{
+    line-height: 0.5rem;
+    padding-top: 2rem;
+}
+
+.menuicon1{
+    line-height: 0.5rem;
+    position: absolute;
+    height: 0.075rem;
+    width: 0.1rem;
+    background-color:#FFFFFF;
+    padding-left: 2rem;
+
+}
+
+
+
+.heading{
+    padding-left:8rem;
+    position:relative;
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Rufina';
+    font-weight:bold;
+    color:#FFFFFF;
+}
+
+.heading1{
+    position:relative;
+    font-size:2rem;
+    text-align: center;
+    font-family: 'Rufina';
+    font-weight:bold;
+    color:#FFFFFF;
+}
+
+.viewmenu{
+    position: absolute;
+    font-size: 7rem;
+    align-self: stretch;
+    color: #FFFFFF;
+    font-weight:500;
+    padding-left: 7rem;
+    padding-top: 5rem;
+    font-family: 'Rufina';
+    
+
+}
+
+.viewmenudes{
+    position: absolute;
+    color: #FFFFFF;
+    padding-top: 28rem;
+    font-size: 1.5rem;
+    padding-left: 7.5rem;
+}
+
+.viewmenu1{
+    position: absolute;
+    font-size: 7rem;
+    align-self: stretch;
+    color: #FFFFFF;
+    font-weight:500;
+    padding-left: 7rem;
+    padding-top: 3rem;
+    font-family: 'Rufina';
+    
+
+}
+
+.viewmenudes1{
+    position: absolute;
+    color: #FFFFFF;
+    padding-top: 25rem;
+    font-size: 1.5rem;
+    padding-left: 7.5rem;
+}
+
+.menudes1{
+    position: absolute;
+    padding-top: 31rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-left:8rem;
+    font-family: 'Rufina';
+  }
+
+
+
+.menubutton{
+   
+    border: none;
+    outline: none;
+    background-color:white;
+    color: black;
+    text-decoration:none;
+    font-weight:650;
+    height: 5rem;
+    width:12rem;
+    font-size: 2rem;
+    font-family: 'Rufina';
+    background-color: transparent;
+}
+
+.menubutton1{
+    border: none;
+    outline: none;
+    background-color:white;
+    color: black;
+    text-decoration:none;
+    font-weight:650;
+    height: 5rem;
+    width:14rem;
+    font-size: 2rem;
+    font-family: 'Rufina';
+}
+.menubutton2{
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+    background-color:white;
+    color: black;
+    text-decoration:none;
+    text-align: center;
+    font-weight:650;
+    height: 5rem;
+    width:12rem;
+    font-size: 2rem;
+    font-family: 'Rufina';
+    background-color: transparent;
+}
+
+.menubutton2:hover{
+    background: transparent;
+    color: #FF9100;
+    border-top: 0.5rem;
+    background: #E7E7E7;
+    opacity:70%;
+   
+
+}
+.NavBar{
+    padding-top: 0rem;
+    font-weight:700;
+    justify-content:space-around;
+    font-size: 2pc;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    height: 10rem;
+}
+
+
+.navbar0{
+    padding-top: 4rem;
+}
+
+.menutype{
+    color: black;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.menubutton:hover{
+    color: #FF9100;
+    
+    border-top: 0.5rem;
+    background: #E7E7E7;
+    opacity: 65%;
+
+}
+
+.menubutton1:hover{
+    color: #FF9100;
+    border-top: 0.5rem;
+    background: #E7E7E7;
+
+}
+
+.images{
+   
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+.block-1{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.block-2{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.image-1{
+    
+    width: 18rem;
+    height:30rem;
+   
+}
+
+.image-2{
+    width:38rem;
+    height: 30rem;
+
+}
+
+.imagetext{
+    position: absolute;
+    padding-top: 24rem;
+    font-size: 1.5rem;
+    font-family: 'Rufina';
+    color:#E7E7E7;
+    padding-left: 1rem;
+}
+
+
+.img1{
+
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.img2{
+    padding-top: 10rem;
+    display:flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+
+.img3{
+    background: linear-gradient(0deg, #51545A 0%, rgba(196, 196, 196, 0) 86.81%);
+    width: 18rem;
+    height:30rem;
+}
+
+.img4{
+    background: linear-gradient(0deg, #51545A 0%, rgba(196, 196, 196, 0) 86.81%);
+    width: 38rem;
+    height: 30rem;
+}
+
+.picname1{
+    font-size: 2rem;
+    position: absolute;
+    color:azure;
+   
+
+} 
+
+.picname2{
+    font-size: 2rem;
+   
+    position:absolute;
+    color:azure;
+} 
+
+.picname3{
+    font-size: 2rem;
+    position:absolute;
+    color:azure;
+} 
+
+.MenuHeading{
+    display: flex;
+    justify-content: center;
+    height:fit-content;
+    font-family:'Rufina';
+    font-weight: bold;
+    font-size: 6.75rem;
+    padding-bottom:3rem;
+    padding-top:10rem;
+}
+
+.MenuHeading0{
+       
+        display: flex;
+        justify-content: center;
+        height:fit-content;
+        font-family: 'Rufina';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 6rem;
+        flex-grow: 0;
+        padding-bottom:3rem;
+        padding-top:5rem;
+    }
+
+.imagehead{
+    margin: 0%;
+    padding-left: 0rem;
+    padding-top: 10rem;
+    height: 15rem;
+    display: flex;
+}
+
+.MenuHeading1{
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    padding-top: 10rem;
+}
+
+
+
+.MenuHeading2{
+    font-family: 'Rufina';
+    font-weight:500;
+    font-size: 4rem;
+}
+
+.button--01{
+    padding: 4rem;
+}
+.p--tag{
+    margin-top: -2rem;
+}
+
+.subHeading{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+    margin-top: 0%;
+}
+
+.shead{
+    height:fit-content;
+}
+
+.imageheading{
+    border-style: double;
+    margin: 0%;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rufina';
+   
+    font-weight: 700;
+    font-size: 6rem;
+    padding-left: 4rem;
+
+   
+}
+
+.imagesubheading{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    padding-bottom: 3rem;  
+}
+
+.line,.line1{
+    line-height: 2.5rem;
+    font-family: 'Rufina';
+    font-style: normal;
+    font-weight: 500;
+    font-size:2.5rem;
+    padding-bottom:0rem;
+    padding-top: 0rem;
+}
+.line{
+    height:fit-content; 
+}
+
+.Item,.rate{
+    font-family: 'Rufina';
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+.container{
+    align-items: center;
+}
+
+.Item,.Menu{
+
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid; 
+    grid-template-columns:50% 50%;
+    height: fit-content;
+    column-gap: 1rem;
+    font-weight: bold;
+   
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.container-2{
+   display: flex;
+   justify-content: center;
+}
+.MenuItems{
+    max-width: fit-content;
+    padding-top: 2.5rem;
+}
+
+#menu1{
+   
+    border-top: 0.25rem dashed #000000;
+
+}
+
+
+#menu{
+    min-width:26rem;;
+    max-width: 37rem;
+    border-top: 0.25rem dashed #000000;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.line0{
+    
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.line2{
+
+    width: 48rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menudes{
+    font-size: 1.25vw;
+    font-weight: 300;
+}
+
+.rate{
+    padding-top: 2.5rem;
+}
+
+
+
+.icons{
+    height: 4rem;
+}
+
+.icons1{
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+    color:#FFFFFF;
+}
+
+
+.reservation{
+    width: 100%;
+    padding-top: 3rem;
+    height: 100%;
+    background: #EBF0E4;
+}
+
+.reservationform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+    padding-top: 5rem;
+}
+
+.form1{
+    background: #EBF0E4;
+    height: 3rem;
+    width:20rem;
+
+}
+
+.form1:hover{
+    transform: scale(1.05);
+}
+
+.booknow{
+    text-align: center;
+    background: #10381F;
+    font-size: large;
+    color:white;
+    font-family: 'Rufina';
+    text-decoration: white;
+    height:3rem;
+    width:10rem;
+}
+
+.booknow:hover{
+    transform: scale(1.07);
+
+}
+
+.flexcontainer11{
+    background: #10381F;
+    font-family: 'Rufina';
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.lnavibar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    gap: 2rem;
+    font-size: large;
+    border-bottom: dotted;
+    border-color: #EBF0E4;
+    color: #EBF0E4;
+}
+
+
+.about{
+    height:100%;
+    background-color: #10381F;
+    font-size: 1.025rem;
+    color:#EBF0E4;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.subscribe{
+    padding: 1rem;
+}
+
+.aboutimage{
+    padding-top: 1.5rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+.contactinfo{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.contactform{
+    background-color: #10381F;
+    border-color: #EBF0E4;
+    color:#EBF0E4;
+    padding-left: 2rem;
+    
+    font-size: 1rem;
+    font-style: orange;
+    width:20rem;
+    height: 3rem;
+}
+
+.contactform:hover{
+    transform: scale(1.03);
+}
+
+.subscribebutton{
+    height: 3rem;
+    width: 8rem;
+    background-color:#F89938;
+    font-family: 'Rufina';
+    color:#EBF0E4;
+    font-size:1.25rem;
+}
+
+.button--02{
+    padding-top: 1rem;
+}
+
+.subscribebutton:hover{
+    transform: scale(1.03);
+}
+
+.subscribeinfo{
+    font-size: 0.75rem;
+}
+
+.last{
+    display: flex;
+    color: #EBF0E4;
+    font-size:large;
+}
+
+.logo{
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+
+}
+ 
+.flex-container10{
+    height: 20rem;
+    margin-right:0;
+    display: flex;
+    
+  }
+  
+  .flex-container10 > div {
+    background-color: #10381F;;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    width:100%;
+    
+    font-size: 1.5rem;
+    -webkit-backdrop-filter: blur(00.625rem);
+      backdrop-filter: blur(00.625rem);
+  
+}
+
+
+.contact-para{
+    color: white;
+    position: relative;
+    left: 20rem;
+    bottom: 10rem;
+ 
+ 
+ }
+ .contact-info{
+    padding-top: 0%;
+   font-size: 1rem;
+ }
+ .email-subscribe{
+     
+     color: white;
+ }
+ .neverMissRecipe{
+       font-size: larger;
+       font-weight:200;
+
+       position: relative;
+       left: 2rem;
+       top: 2rem;
+ 
+ 
+ }
+ .email-input{
+
+          height: 3rem;
+          width: 20rem;
+          background-color: #10381F;;
+          border-color: white;
+          color: white;
+          position: relative;
+          top:0.063rem ;
+
+          left: 2rem;
+          font-size: large;
+ 
+ 
+       }
+
+
+       .subscribeButton{
+        height: 3rem;
+        width: 7rem;
+         position: relative;
+         left: 2rem;
+         background-color: #fc8403;
+         color: white;
+         border: none;
+         font-size:large;
+ }
+ .join{
+   font-size: 0.7rem;
+   position: relative;
+   left: 2rem;
+ }
+
+ .flex-container {
+    display: flex;
+    /*background-color: DodgerBlue;*/
+  }
+  
+  .flex-container > div {
+    background-color: none;
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 1.875rem;
+    height: 30rem;
+    width: 70rem;
+  }
+
+  .food{
+	width:100%;
+	height: 90vh;
+    background-image: url(mainimage.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100vw 120vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    
+   
+}
+
+
+.Head{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 5rem;
+}

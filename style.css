@@ -1,0 +1,444 @@
+html ,body{
+    padding:0; 
+    margin:0;
+    overflow-x: hidden;
+    /* width:fit-content; */
+}
+.first-slide{
+max-height:100%;
+max-width: 100%;
+background: #EAECEE;
+display: flex;
+flex-direction: column;
+flex: wrap;
+}
+
+.ab{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 3rem;
+}
+
+@media (max-width:1000px){
+  .ab{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+}
+.menu-button {
+  font-size: 1.75rem;
+}
+.fa-solid{
+  color: #000;
+}
+.name{
+  font-size: 1.85em ;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 0;
+}
+.nav-images {
+    font-size: 1.75rem;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.f-wo-top{
+ display: flex;
+ flex-wrap: wrap;
+ flex: 1 1 100%;
+ padding: 1em;
+ justify-content: space-around;
+
+}
+
+.left-img img{
+    width: 35rem;
+    height: 35rem;
+}
+
+@media (max-width:600px){
+
+  .left-img img{
+  width : 20.5rem;
+  height: 20.5rem;
+  }
+}
+.leaf-1 {
+    width: 30rem;
+    height:10rem;
+    padding-top: 1rem;
+}
+.excel-cook{
+  width:21em;
+} 
+
+.excelent-cook{
+  font-size: 4.75em;
+  width: 6rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+  
+}
+.ex-co-quotes{
+   line-height: 1.45em;
+}
+
+
+
+
+
+
+
+
+
+/* //------------------------------------------ */
+.second-slide{ 
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+
+}.p-qual-img{
+  padding: 2rem;
+}
+
+.veg-img{
+  padding: 2rem;
+}
+.fruits-img{
+  padding: 2rem;
+
+}
+
+@media( min-width:1000px){
+  .second-slide{
+    flex-wrap: nowrap;
+  }
+
+  .p-qual-img{
+    padding: 5rem;
+  }
+  
+  .veg-img{
+    padding: 5rem;
+  }
+  .fruits-img{
+    padding: 5rem;
+  
+  }
+}
+
+.p-qual-img img{
+  width: 7.2rem; 
+}
+
+.veg-img img {
+  width: 6rem;
+}
+.fruits-img img{
+  width: 6rem;
+}
+.p-qual{
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+}
+.s-veg{
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+
+}
+.fruits{
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+
+.styled-img{
+  border-radius: 70%;
+  width: fit-content;
+  padding: 3rem;
+  background: #EAECEE;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.qual-text{
+  text-align: center;
+}
+
+/* ----------------------------------------------------- */
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.article-card .image img{
+  width: 100%;
+}
+
+.article_profile_pic {
+  border-radius: 50%;
+  width: 3rem;
+  height: 6rem;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 14px;
+  font-size: 13px;
+}
+
+.dot{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(16, 56, 31, 1);
+}
+
+.third-slide{
+  padding-left: 8%;
+}
+
+.third-slide{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+@media ( max-width:1000px){
+  
+  .third-slide{
+    display: block;
+  }
+}
+
+.p-h-text{
+  font-size: 2em;
+}
+.p-readmore{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+hr{
+  border: none;
+  border-top: 3px dotted #000;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+}
+
+
+
+/* ----------------------------------------------------- */
+/* .fifth-slide{
+  height: 125vh;
+  background: #EBF0E4;
+}
+
+.res-text {
+  padding-top: -25.75em;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 10rem;
+  font-family: 'Rufina';
+}
+.res-line{
+  margin-top: -4.5rem;
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+  font-family: 'Lato';
+  
+}
+.input-forms{
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+  margin-top: 5rem;
+}
+.book-btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+width:  11em;
+margin-left: 35rem;
+margin-top:6.5em;
+background-color: #10381F;
+color: white;
+height: 3.5em;
+font-family: 'Rufina';
+font-size: 1em;
+}
+
+
+.leaf-01-img img{
+  padding-bottom: -20rem;
+  display: flex;
+}
+
+
+
+.leafBottom{
+  margin-top: -3rem;
+  margin-left: 1rem;
+  overflow: visible;
+  position: absolute;
+}
+
+.input-forms input{
+  width: 18rem;
+  height: 3rem;
+  border: 2px solid black;
+  background-color: #EBF0E4;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-calendar-picker-indicator {
+    opacity:0;   
+   -webkit-appearance: none;
+} */
+
+
+
+
+
+/* --------------------------------------------- */
+
+.fourth-slide{
+ height: 100%;
+ width: 100%;
+
+}
+.logo-img{
+  width: 10em;
+  margin-bottom: auto;
+}
+
+
+.b-w-text{
+ display: flex;
+ justify-content: space-around;
+}
+.blogger-img{
+  display: flex;
+  height: 5.5rem;
+}
+.b-name-text{
+  font-size: 25px;
+}
+
+.b---t{
+  line-height: 0;
+  padding-top: 0.4rem;
+}
+
+.t-i{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.text-4{
+font-size: 2rem;
+padding: 2rem;
+padding-bottom: 0;
+}
+
+@media (min-width:900px){
+  .text-4{
+    font-size: 2.5rem;
+    padding: 5rem;
+    padding-bottom: 0;
+  }
+}
+
+.leaf-03{
+   width: 10rem;
+   padding: 3rem;
+   margin-left: auto;
+   padding-top: 0;
+   margin-top: -11rem;
+   margin-right: 0;
+}
+
+
+
+.button-v{
+  gap: 15px;
+  display: flex;
+  height: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.b_text{
+  align-self: center;
+}
+
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+@media (max-width : 700px) {
+
+    .logo-img{
+      width: 5rem;
+      margin-bottom: auto;
+    }
+}
+
+.mySlides{
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width : 1000px){
+  .mySlides{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.fa-solid {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.leaf-01-img{
+  width: 13rem;
+  margin-top: -8rem;
+}
+
+
+
+
+
+
